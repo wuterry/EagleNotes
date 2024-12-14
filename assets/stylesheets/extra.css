@@ -1,0 +1,16 @@
+.md-typeset h3 {
+    color: black;
+}
+
+.md-typeset h4 {
+    color: rgb(120, 120, 120);
+}
+
+.md-grid {
+    max-width: 1700px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
