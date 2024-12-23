@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../yolo_series/">
       
       
-        <link rel="next" href="../../instance_segmentation/">
+        <link rel="next" href="../../segmentation/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>损失函数 - Eagle</title>
+        <title>DETR 系列 - Eagle</title>
       
     
     
@@ -124,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#distribution-based-loss" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -158,7 +158,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              损失函数
+              DETR 系列
             
           </span>
         </div>
@@ -232,7 +232,7 @@
   
     
   
-  🔑主页
+  主页
 
       </a>
     </li>
@@ -302,11 +302,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../object_detection/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
     
@@ -322,18 +324,16 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../segmentation/" class="md-tabs__link">
           
   
     
   
-  语义分割
+  视觉分割
 
         </a>
       </li>
@@ -348,12 +348,32 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../instance_segmentation/" class="md-tabs__link">
+        <a href="../../aigc/" class="md-tabs__link">
           
   
     
   
-  实例分割
+  AIGC
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../asr/" class="md-tabs__link">
+          
+  
+    
+  
+  语音识别
 
         </a>
       </li>
@@ -425,7 +445,7 @@
         
   
   <span class="md-ellipsis">
-    🔑主页
+    主页
   </span>
   
 
@@ -1173,6 +1193,8 @@
       
   
   
+    
+  
   
   
     
@@ -1192,22 +1214,27 @@
       
         
       
-    
-    
-      
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../object_detection/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1218,13 +1245,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             目标检测
@@ -1240,7 +1267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../object_detection/basics/" class="md-nav__link">
+      <a href="../basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1261,7 +1288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../object_detection/incremental/" class="md-nav__link">
+      <a href="../incremental/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1282,7 +1309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../object_detection/small_target/" class="md-nav__link">
+      <a href="../small_target/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1303,7 +1330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../object_detection/rcnn_series/" class="md-nav__link">
+      <a href="../rcnn_series/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1324,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../object_detection/yolo_series/" class="md-nav__link">
+      <a href="../yolo_series/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1336,74 +1363,6 @@
     </li>
   
 
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-    
-    
-      
-        
-        
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    语义分割
-  </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            语义分割
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
             
               
@@ -1424,7 +1383,7 @@
           
   
   <span class="md-ellipsis">
-    损失函数
+    DETR 系列
   </span>
   
 
@@ -1435,7 +1394,7 @@
         
   
   <span class="md-ellipsis">
-    损失函数
+    DETR 系列
   </span>
   
 
@@ -1455,37 +1414,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#distribution-based-loss" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Distribution-based Loss
+      概念
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#region-based-loss" class="md-nav__link">
-    <span class="md-ellipsis">
-      Region-based Loss
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#boundary-based-loss" class="md-nav__link">
-    <span class="md-ellipsis">
-      Boundary-based Loss
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Boundary-based Loss">
+    <nav class="md-nav" aria-label="概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#boundary-loss" class="md-nav__link">
+  <a href="#object-query" class="md-nav__link">
     <span class="md-ellipsis">
-      Boundary Loss
+      Object Query
     </span>
   </a>
   
@@ -1493,6 +1434,75 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      论文
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="论文">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dn-detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      DN-DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dino" class="md-nav__link">
+    <span class="md-ellipsis">
+      DINO
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#co-detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Co-DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-fine" class="md-nav__link">
+    <span class="md-ellipsis">
+      D-FINE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      遗留问题
+    </span>
+  </a>
   
 </li>
       
@@ -1527,6 +1537,111 @@
       
         
       
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../segmentation/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    视觉分割
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            视觉分割
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../segmentation/wsis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    弱监督实例分割
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../segmentation/losses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    损失函数
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
     
     
       
@@ -1542,27 +1657,85 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../instance_segmentation/" class="md-nav__link ">
+            <a href="../../aigc/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    实例分割
+    AIGC
   </span>
   
 
             </a>
-            
-              
-              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
             
           </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            实例分割
+            AIGC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../asr/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    语音识别
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            语音识别
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1575,11 +1748,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../instance_segmentation/wsis/" class="md-nav__link">
+      <a href="../../asr/transducer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    弱监督实例分割
+    Transducer
   </span>
   
 
@@ -1619,6 +1792,8 @@
       
         
       
+        
+      
     
     
       
@@ -1629,7 +1804,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
           
@@ -1645,14 +1820,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             项目
           </label>
@@ -1671,7 +1846,7 @@
         
   
   <span class="md-ellipsis">
-    🔑面试
+    面试
   </span>
   
 
@@ -1696,8 +1871,6 @@
       
         
       
-        
-      
     
     
       
@@ -1708,7 +1881,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
         
           
           
@@ -1724,14 +1897,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
             <span class="md-nav__icon md-icon"></span>
             语音识别
           </label>
@@ -1760,6 +1933,14 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
@@ -1767,7 +1948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/gesture_recognition/" class="md-nav__link">
+      <a href="../../projects/gesture_2d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1776,14 +1957,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1800,7 +1973,7 @@
         
   
   <span class="md-ellipsis">
-    🔑工业质检
+    工业质检
   </span>
   
 
@@ -1821,7 +1994,7 @@
         
   
   <span class="md-ellipsis">
-    🔑人脸人体识别
+    人脸人体识别
   </span>
   
 
@@ -1842,7 +2015,7 @@
         
   
   <span class="md-ellipsis">
-    🔑图像处理
+    图像处理
   </span>
   
 
@@ -1884,37 +2057,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#distribution-based-loss" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Distribution-based Loss
+      概念
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#region-based-loss" class="md-nav__link">
-    <span class="md-ellipsis">
-      Region-based Loss
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#boundary-based-loss" class="md-nav__link">
-    <span class="md-ellipsis">
-      Boundary-based Loss
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Boundary-based Loss">
+    <nav class="md-nav" aria-label="概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#boundary-loss" class="md-nav__link">
+  <a href="#object-query" class="md-nav__link">
     <span class="md-ellipsis">
-      Boundary Loss
+      Object Query
     </span>
   </a>
   
@@ -1922,6 +2077,75 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      论文
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="论文">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dn-detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      DN-DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dino" class="md-nav__link">
+    <span class="md-ellipsis">
+      DINO
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#co-detr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Co-DETR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-fine" class="md-nav__link">
+    <span class="md-ellipsis">
+      D-FINE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      遗留问题
+    </span>
+  </a>
   
 </li>
       
@@ -1940,64 +2164,98 @@
                   
 
 
-  <h1>损失函数</h1>
+  <h1>DETR 系列</h1>
 
-<blockquote>
-<p>语义分割中的损失函数主要分为四大类: 基于分布的损失函数、基于区域的损失函数和相关技术的结合。如下图</p>
-</blockquote>
-<p>相关技术主要参考 <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521000815">2021 Loss odyssey in medical image segmentation</a>.</p>
-<p><a class="glightbox" href="../images/segm_losses.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="segm_loss" src="../images/segm_losses.png" /></a></p>
-<h2 id="distribution-based-loss">Distribution-based Loss<a class="headerlink" href="#distribution-based-loss" title="Permanent link">#</a></h2>
-<p>要点: 度量两个分布的相似程度。</p>
-<div class="arithmatex">\[
-\begin{aligned}
-D_{KL}(P|Q) &amp;= \sum_i p_i \log \frac{p_i}{q_i} \\
-       &amp;= -\sum_i p_i \log q_i + \sum_i p_i \log p_i \\
-\Longrightarrow \underbrace{D_{KL}(p||q)}_{KL 散度} &amp;= \underbrace{H(p, q)}_{交叉熵} - \underbrace{H(p)}_{熵}
-\end{aligned}
-\]</div>
-<p>由上公式可以看到, <strong>最小化交叉熵损失等价于最小化 KL 散度</strong>。</p>
+<h2 id="_1">概念<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<h3 id="object-query">Object Query<a class="headerlink" href="#object-query" title="Permanent link">#</a></h3>
 <ul>
-<li><strong>TopK Loss</strong>: 强制网络训练过程中关注难样本;</li>
-<li><strong>Focal Loss</strong>: 对容易样本降权, 改善前景/背景类别极端不平衡的问题;</li>
-<li><strong>Distance penalized CE Loss</strong>: 从 GT Mask 推导距离图，旨在引导网络关注难分割的边缘区域。</li>
+<li>DETR 首次提出，在目标检测中扮演 <mark class="critic">dynamic anchor</mark> 的角色，在实现是一个可学习的 Embedding  <span class="arithmatex">\( Q_{obj} \in \mathbb{R} ^ {N_{ins} \times d } \)</span>.</li>
+<li>训练阶段，每个 GT 目标都会分配一个对应的 query 进行学习.</li>
+<li>推理阶段，根据最高的分数选择 queris 作为输出.</li>
 </ul>
-<h2 id="region-based-loss">Region-based Loss<a class="headerlink" href="#region-based-loss" title="Permanent link">#</a></h2>
-<p>要点: 对 GT 和分割预测，最小化误匹配或者最大化交叠区域。</p>
-<div class="arithmatex">\[
-Dice = \frac{2|A \cap B|}{A \cup B|}
-\]</div>
+<h2 id="_2">论文<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">发表</th>
+<th style="text-align: center;">算法</th>
+<th style="text-align: left;">创新点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2020 ECCV</td>
+<td style="text-align: center;">DETR</td>
+<td style="text-align: left;">端到端，集合预测</td>
+</tr>
+<tr>
+<td style="text-align: center;">2021 ICLR</td>
+<td style="text-align: center;">Deformable-DETR</td>
+<td style="text-align: left;">多尺度 deforable 注意力模块</td>
+</tr>
+<tr>
+<td style="text-align: center;">2021 CVPR</td>
+<td style="text-align: center;">UP-DETR</td>
+<td style="text-align: left;">自监督预训练</td>
+</tr>
+</tbody>
+</table>
+<h3 id="detr">DETR<a class="headerlink" href="#detr" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/facebookresearch/detr">DETR: End-to-End Object Detection with Transformers (ECCV2020)</a></p>
+<p><strong>目的</strong>： 摆脱上述预处理和后处理步骤的限制，将物体检测视作集合预测问题（set prediction problem）。</p>
+<p><strong>思路</strong>：将训练数据输入 CNN 网络构成的 backbone，得到图像的高维特征 feature map。这些特征作为 Transformer Encoder 的输入，结合图像的位置编码，经过 Decoder 后得到固定数目（大于该数据集最大物体数）query 的特征信息，最后通过前向网络将 query 所包含的信息映射到图片中物体的边界框及标签。</p>
+<p><strong>缺点</strong>： 
+- 训练收敛慢
+- 小目标效果差</p>
+<div class="language-text highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>set prediction problem: set 表示预测值与目标值分别放在两个无序集中，二者之间通过匈牙利算法匹配，保证了“交换不变性”。这种特性使得匹配结果与匹配的先后顺序无关，整个网络可以并行计算，大大提高了计算效率。
+</span></code></pre></div></td></tr></table></div>
+<h3 id="dn-detr">DN-DETR<a class="headerlink" href="#dn-detr" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/IDEA-Research/DN-DETR">DN-DETR: Accelerate DETR Training by Introducing Query DeNoising</a></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <ul>
-<li><strong>Sensitivity-Specifity Loss (SS)</strong>:  sensitivity 和 specificity 的均方差的加权和。为了改善不平衡问题，specificity 具有更高的权重;</li>
-<li><strong>Dice Loss</strong>: <span class="arithmatex">\(L_{Dice}=1-Dice\)</span>, 直接优化用于评估分割效果的 Dice 系数;</li>
-<li><strong>IoU Loss</strong>: 类似 Dice Loss, 也是直接优化用于评估分割效果的 IoU 指标;</li>
-<li><strong>Tversky Loss</strong>: 与 Dice Loss 不同, 对 FP 和 FN 设置不同的权重;</li>
-<li><strong>GIoU Loss</strong>: 是 Dice Loss 的多分类扩展, 每个类别的权重与标签出现的频率成反比;</li>
-<li><strong>Focal Tversky Loss</strong>: 聚焦到低置信度的难样本;</li>
-<li><strong>Penalty Loss</strong>: 在 GIoU 的基础上, 对 FN 和 FP 施加惩罚。</li>
+<li>深度分析了 DETR 收敛慢的原因：匈牙利算法匹配的离散性和模型训练的随机性，导致ground-truth的匹配变成了一个动态的、不稳定的过程；</li>
+<li>提出了 Denoising training 解决 DETR decoder 二分图匹配不稳定的问题。</li>
 </ul>
-<h2 id="boundary-based-loss">Boundary-based Loss<a class="headerlink" href="#boundary-based-loss" title="Permanent link">#</a></h2>
-<p>要点: 最小化 GT 和预测间的距离, 常与 Region-based Loss 联用以提高模型训练稳定性。</p>
-<h3 id="boundary-loss"><strong><a href="http://proceedings.mlr.press/v102/kervadec19a/kervadec19a.pdf">Boundary Loss</a></strong><a class="headerlink" href="#boundary-loss" title="Permanent link">#</a></h3>
-<h4 id="_1">动机<a class="headerlink" href="#_1" title="Permanent link">#</a></h4>
-<p>CE Loss 和 Dice Loss 对类别不平衡敏感, 网络容易倾向于背景。</p>
+</div>
+<p><strong>为什么 DETR 收敛慢？</strong></p>
 <ul>
-<li>CE Loss 中背景的 Loss 容易占主导;</li>
-<li>对所有的背景像素一视同仁, 忽略了空间信息。</li>
-<li>理论上, 距离 GT 越远的误分割, 应该给与的惩罚权重越大。</li>
+<li>decoder queries 可被解读为anchor坐标，即 bbox <span class="arithmatex">\((x, y, w, h)\)</span>;</li>
+<li>decoder 学习两个东西，分别是 anchor 位置 <span class="arithmatex">\((x, y, w, h)\)</span> 和 anchor 偏移 <span class="arithmatex">\((\Delta x, \Delta y, \Delta w, \Delta h)\)</span>;</li>
+<li>decoder queries 可以看成是 anchor 位置的学习，而不稳定的匹配导致不稳定的 anchor, 导致 anchor 的偏移学习变得困难。</li>
 </ul>
-<h4 id="_2">方法<a class="headerlink" href="#_2" title="Permanent link">#</a></h4>
-<p><strong>目的</strong>: 最小化分割边界与 GT 边界间的距离。
-<a class="glightbox" href="../images/boundary_loss_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="relationship" class="center" src="../images/boundary_loss_1.png" width="500" /></a></p>
-<p>受离散优化中曲线演进方法的启发, 两个曲线边界的距离可以表示为</p>
-<div class="arithmatex">\[
-Dist(\partial G, \partial S) \approx \int_{\partial G} \|y_{\partial S}  (p) - p\|^2 dp
-\]</div>
-<p>转化为对 <span class="arithmatex">\(\Delta S\)</span> 的积分</p>
-<div class="arithmatex">\[
-Dist(\partial G, \partial S) \approx 2 \int_{\Delta S} D_G(q) dq
-\]</div>
-<p>其中 <span class="arithmatex">\(D_G(q)\)</span> 是对应 <span class="arithmatex">\(\partial G\)</span> 的距离图。</p>
+<p><strong>策略</strong>: 使用一个denoising task作为一个shortcut来学习相对偏移，跳过了匹配过程直接进行学习。如果把query看作四维坐标 <span class="arithmatex">\((x, y, w, h)\)</span>，可以通过在真实框附近添加一个微小的扰动作为噪声，这样我们的denoising task就有了一个清晰的目标——直接重建真实框而不需要匈牙利匹配。</p>
+<h3 id="dino">DINO<a class="headerlink" href="#dino" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/IDEA-Research/DINO">DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection</a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../images/dino.png"><img alt="Framework" src="../images/dino.png"/></a></p>
+<p><b><font color="red">注意</font></b>: 本篇 DINO 需要与 Meta 自监督学习算法 <a href="https://github.com/facebookresearch/dino?tab=readme-ov-file">DINO</a> 和 <a href="https://github.com/facebookresearch/dinov2">DINOv2</a> 区别。 DINO 是基于 DAB-DETR 和 DN-DETR 的进一步改进。</p>
+<h4 id="_3">特性<a class="headerlink" href="#_3" title="Permanent link">#</a></h4>
+<ul>
+<li><strong>高性能</strong>：以相对较小的数据和模型（约 SwinV2的1/10）取得了更好的检测结果; ResNet-50标准设置下取得了51.3 AP。</li>
+<li><strong>端到端</strong>: 避免了传统检测器许多需要手工设计的模块 (如NMS);</li>
+<li><strong>收敛快</strong>: ResNet-50 标准设置下，使用 5 个尺度特征（5-scale）的 DINO 达到 49.4 AP(12epoch)，51.3 AP (24epoch)。</li>
+</ul>
+<h4 id="_4">创新点<a class="headerlink" href="#_4" title="Permanent link">#</a></h4>
+<ul>
+<li>Contrastive denoising: DN-detr 只使用了正样本进行学习，模型还需要学习如何区分负样本, 一是真实框加较大噪声时则认为是负样本；二是增加真实框附近的样本；</li>
+<li>Mix query selection: 大部分DETR模型的 query 是从数据集中学，与图片输入不相干。</li>
+</ul>
+<h3 id="co-detr">Co-DETR<a class="headerlink" href="#co-detr" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/Sense-X/Co-DETR">DETRs with Collaborative Hybrid Assignments Training (ICCV2023)</a></p>
+<h4 id="_5">动机<a class="headerlink" href="#_5" title="Permanent link">#</a></h4>
+<p>基于DETR（DEtection TRansformer）的目标检测器在使用一对一集合匹配时，仅有少量查询被指定为正样本。这导致了对编码器输出的稀疏监督，削弱了编码器的判别特征学习能力，同时也限制了解码器的注意力学习表现。这种缺陷使得DETR在训练效率和效果上都逊色于传统的一对多标签分配方法。</p>
+<h4 id="_6">创新点<a class="headerlink" href="#_6" title="Permanent link">#</a></h4>
+<ul>
+<li>协同混合分配训练框架：提出了一种新的协作混合分配训练方法（Co-DETR），通过结合一对多标签分配策略（如ATSS和Faster R-CNN）增强编码器的特征学习能力。</li>
+<li>自定义正样本查询生成：通过辅助分支生成额外的正样本查询，并将其送入解码器进行训练，从而提高解码器的正样本训练效率。</li>
+<li>无额外推理开销：虽然训练中引入了额外的辅助头，但这些辅助头在推理阶段被丢弃，因此方法不会增加模型的推理参数或计算成本。</li>
+</ul>
+<h3 id="d-fine">D-FINE<a class="headerlink" href="#d-fine" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/Peterande/D-FINE">D-FINE: REDEFINE REGRESSION TASK IN DETRS AS  FINE-GRAINED DISTRIBUTION REFINEMENT</a></p>
+<h2 id="_7">遗留问题<a class="headerlink" href="#_7" title="Permanent link">#</a></h2>
+<ul>
+<li>DETR 为什么对小目标效果不好？ 有哪些改进方法？</li>
+</ul>
 
 
 
@@ -2044,12 +2302,14 @@ Dist(\partial G, \partial S) \approx 2 \int_{\Delta S} D_G(q) dq
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.link", "navigation.indexes", "content.footnote.tooltips"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.link", "navigation.indexes", "content.footnote.tooltips", "navigation.path"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
         <script src="../../assets/javascripts/mathjax-config.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       

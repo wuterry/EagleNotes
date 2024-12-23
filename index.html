@@ -121,11 +121,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          跳转至
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -156,7 +151,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔑主页
+              主页
             
           </span>
         </div>
@@ -232,7 +227,7 @@
   
     
   
-  🔑主页
+  主页
 
       </a>
     </li>
@@ -326,12 +321,12 @@
     
     
       <li class="md-tabs__item">
-        <a href="semantic_segmentation/" class="md-tabs__link">
+        <a href="segmentation/" class="md-tabs__link">
           
   
     
   
-  语义分割
+  视觉分割
 
         </a>
       </li>
@@ -346,12 +341,32 @@
     
     
       <li class="md-tabs__item">
-        <a href="instance_segmentation/" class="md-tabs__link">
+        <a href="aigc/" class="md-tabs__link">
           
   
     
   
-  实例分割
+  AIGC
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="asr/" class="md-tabs__link">
+          
+  
+    
+  
+  语音识别
 
         </a>
       </li>
@@ -426,52 +441,15 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    🔑主页
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    🔑主页
+    主页
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      简介
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1235,6 +1213,8 @@
       
         
       
+        
+      
     
     
       
@@ -1381,6 +1361,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="object_detection/detr_series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DETR 系列
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1403,6 +1404,8 @@
       
         
       
+        
+      
     
     
       
@@ -1418,11 +1421,11 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="semantic_segmentation/" class="md-nav__link ">
+            <a href="segmentation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    语义分割
+    视觉分割
   </span>
   
 
@@ -1438,7 +1441,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            语义分割
+            视觉分割
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1451,7 +1454,28 @@
   
   
     <li class="md-nav__item">
-      <a href="semantic_segmentation/losses/" class="md-nav__link">
+      <a href="segmentation/wsis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    弱监督实例分割
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="segmentation/losses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1485,8 +1509,6 @@
           
         
       
-        
-      
     
     
       
@@ -1502,27 +1524,85 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="instance_segmentation/" class="md-nav__link ">
+            <a href="aigc/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    实例分割
+    AIGC
   </span>
   
 
             </a>
-            
-              
-              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
             
           </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            实例分割
+            AIGC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="asr/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    语音识别
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            语音识别
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1535,11 +1615,11 @@
   
   
     <li class="md-nav__item">
-      <a href="instance_segmentation/wsis/" class="md-nav__link">
+      <a href="asr/transducer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    弱监督实例分割
+    Transducer
   </span>
   
 
@@ -1579,6 +1659,8 @@
       
         
       
+        
+      
     
     
       
@@ -1589,7 +1671,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
           
@@ -1605,14 +1687,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             项目
           </label>
@@ -1656,8 +1738,6 @@
       
         
       
-        
-      
     
     
       
@@ -1668,7 +1748,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
         
           
           
@@ -1684,14 +1764,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
             <span class="md-nav__icon md-icon"></span>
             语音识别
           </label>
@@ -1720,6 +1800,14 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
@@ -1727,7 +1815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="projects/gesture_recognition/" class="md-nav__link">
+      <a href="projects/gesture_2d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1736,14 +1824,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1837,23 +1917,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      简介
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1867,33 +1930,9 @@
                   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">Mgt0pab4RjCmgqFGsqYsWA==;wAZ50LhL0mF6wJ0UafisfQOlPC7EYKYhwQ3KmhZGgPxo5FLSPxaypcAFTtdItSOIAmLY8yLZUIufEtJkNnEFXiVfqVrwgrXG97wvka16N/r4T6DwcbAZpaFqHy7nBi/HmvZ/lDaydd3Wv8mzBYwCZMYPgNbZ3Wbcc/AuwTgoRYlC5vwPzTX3yl9NIOnewQaCIswQoVuMk5x4uCY4872a2Hx3lxiYJ3jh7u72OYIgtTgKUzogHp9d5PtvcPX2VkliJhDmxwWQ3gjV28hYqMCZ2SRKi2vSNEh3R9zvW9eiyiOM9IIXfrGbwzuansQXWNOm/d+uk1poHxz93p0pWsLitRkwVM+2FsVQJqkkn9bmKvig5kmg1AgVvS4qqqpOk0BSqjUYnAOQZwSHwAncfLrzm1cJxcsYvHXdprNifSafnp3CV8vLuKWYljPbOXueK0OU3tTC+mDmN0pf7Kzbpemo/qTttU42dqcr/Ht/UzQ70k3ygzwqveEW9aWaKLRjybmsKn9QGlPFs9rUXw3r4Y+Ur53AnP52tEOvgfFNte9ERl2Lcf7BpmFPmP+vA6hEFsxQyQv1gvnJRXfni50R+J5/GHEVa3AqjsB8qpSQyBpTJlKEFksUSMS7gXClL+jFEOr7M/b9RdwTP7CQ+YYMcSzD1Qlt2CwHmOqnQafBxdEZv9B4wIod03xyOaILN70OaQKmb3YMI3eHXdDHj4GEpUYJPSGA3+IORl0n4BCQcjXmbEmgOHkvtXUmwzW5WxhmKBc+Fldr52xqMIu/r6rnTj0bpgVTXrEj3Ooe+zv6iJb2HLUqRRgKhKYCK0FEKfuwrl0/bYJzzcCQF/gyjlJ0S4pDcOrkaQfbbrFIL5rS4/M8ie/TUf+i+pxMd+K6jI8HpGm/LRUObQLG88PFM9s2Y8vmOTBRq6lHFtMwwxYee+3Op6/saWGIFgIymepWJ7YTWeBOncwu4MimB2T7DY3Nc4Om9EirEiaEVmVsJ9qlBT2Jt1WWQfAeKIRbxJoPnGzwIB3lY25ItzXnMdN6WGxRoVsas94w9mx6/Gdr8+IYgXR4Rm0TayJ3IIYXiHpuVpT1cn/i+gFNBG3+S/IzqFcCQbBAXIrU0OhqUqSIYpiSA50HdWS/tZjjt2eIytbfWp25qw8ZY2h35LmKTIBIyYlQEeO+uzORQuW3mr42O5QPuQO6jH8zAZ2oK1Q7kY63FYAgY6vPGd2fgTtlNvapi3Xy2UfqwL32CvMVAUVhJcF8UDHx3KFWF4hhi4zh/qH1KZkmTl2ef9gdHPbTwOfpFzdOgKoV2JPnolloAqahVZXFc8BsU+yZ90YMKJPy/lCGg178HiE+SzabiqCiFNtYiK6yHm0aPLtVZqAucOGr6bFHkgAyTs1lnu00HHro3L/nHoLwva3Ny8qslsUkd8fY3Semif3wPtvQCSB3eKaoj45vUsFu91kGrgDPgQ4cdpwaEVaSARIwUTrS4hXIKtoJ4nwxEoikHUB+kbEALrB2kUgTzTGZiS5HqRBZMz2HNkSvA6MsKSmS9SaoO6Apz51W13bxGNOdJNt9NFbWISBh52qd6dAi/JbwxrFrIUOv0W4Tn0JC5NFqFcbbPdUf9F4YYHAbdryzUGD77CP2TCPXHDwjce3ctdTZgSWPNUU1lwKiCYKL3jyOWYXib9/7G0XYcZYABkep/Ootl51ejuCODUVRHkDxadFLvtcwDjji28qtcnLcF0Vh</div>
-<div id="mkdocs-decrypted-content">
-    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
-        <h1>This content is protected with AES encryption. </h1>
-        <p>Contact your administrator for access to this page.</p>
-        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
-        <button class="md-button md-button--primary" id="mkdocs-decrypt-button">确定</button>
-        <p id="mkdocs-decrypt-msg"></p>
-    </form>
-</div>
+  <h1>主页</h1>
 
-<script type="text/javascript">
-var encryptcontent_id = "encryptcontent_1";
-var encryptcontent_path = "";
-var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["o9JMUIby4Q0NFZh0cJNKkQ==;ysCaNCnhHQOpHaf/6m3cudVWlXgfcCiXsSV7aPxbNxD5IOeqvXEcewDLK0QUGsx2B6a2BKJKxUWlznayjFD60VXVx2U3ugTsZXK60C1Jvh04QJDnkl5nSCNph87Yup/G;8OYCdEKRl/KwbcRvyyrL1A=="];
-var encryptcontent_obfuscate = 0;
 
-</script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
-<script type="text/javascript" src="./assets/javascripts/decrypt-contents.js" defer></script>
 
 
 
@@ -1940,12 +1979,14 @@ var encryptcontent_obfuscate = 0;
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.link", "navigation.indexes", "content.footnote.tooltips"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.link", "navigation.indexes", "content.footnote.tooltips", "navigation.path"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
       
         <script src="assets/javascripts/mathjax-config.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
