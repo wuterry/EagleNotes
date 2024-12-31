@@ -1539,6 +1539,8 @@
       
         
       
+        
+      
     
     
       
@@ -1578,6 +1580,27 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../segmentation/semantic_seg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    语义分割
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -2202,7 +2225,7 @@
 </table>
 <h3 id="detr">DETR<a class="headerlink" href="#detr" title="Permanent link">#</a></h3>
 <p><a href="https://github.com/facebookresearch/detr">DETR: End-to-End Object Detection with Transformers (ECCV2020)</a></p>
-<p><strong>目的</strong>： 摆脱上述预处理和后处理步骤的限制，将物体检测视作集合预测问题（set prediction problem）。</p>
+<p><strong>目的</strong>： 摆脱预处理和后处理步骤的限制，将物体检测视作集合预测问题（set prediction problem）。</p>
 <p><strong>思路</strong>：将训练数据输入 CNN 网络构成的 backbone，得到图像的高维特征 feature map。这些特征作为 Transformer Encoder 的输入，结合图像的位置编码，经过 Decoder 后得到固定数目（大于该数据集最大物体数）query 的特征信息，最后通过前向网络将 query 所包含的信息映射到图片中物体的边界框及标签。</p>
 <p><strong>缺点</strong>： 
 - 训练收敛慢

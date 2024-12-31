@@ -1473,6 +1473,8 @@
       
         
       
+        
+      
     
     
       
@@ -1512,6 +1514,27 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../segmentation/semantic_seg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    语义分割
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -2038,14 +2061,14 @@
 <h2 id="_1">挑战<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
 <ul>
 <li><strong>信息损失</strong>：主干网络通过下采样降低噪声和特征空间冗余，此过程导致大量信息损失；</li>
-<li><strong>噪声特征表示</strong>：小物体通常分辨率低，外观质量差，很难学习可区分性特征；同时也易受到其他背景噪声干扰；</li>
+<li><strong>噪声特征表示</strong>：小物体通常分辨率低，外观质量差，很难学习可区分性特征；同时也易受到其他背景噪声干扰；小目标也是难目标；</li>
 <li><strong>边框波动</strong>：小物体对预测边框偏差更敏感，轻微偏差可能导致 IoU 分数显著下降；</li>
-<li><strong>训练样本不足</strong>：小物体占据的区域有限，通常与锚箱的重叠极小，因此在训练期间很难收集足够的阳性样本;</li>
+<li><strong>训练样本不足</strong>：小物体占据的区域有限，通常与锚箱的重叠极小，因此在训练期间很难收集足够的阳性样本。</li>
 </ul>
 <h2 id="_2">优化策略<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
 <ul>
 <li><strong>多尺度训练和测试</strong>： 输入不同的尺寸进行训练和测试；</li>
-<li><strong>优化特征提取</strong>：保持空间分辨率的计数如 FPN, PAN (Path Aggregation Network);</li>
+<li><strong>优化特征提取</strong>：保持空间分辨率的方法如 FPN, PAN (Path Aggregation Network);</li>
 <li><strong>改进标签分配策略</strong></li>
 <li><strong>引入注意力机制</strong></li>
 <li><strong>改进评估指标</strong></li>

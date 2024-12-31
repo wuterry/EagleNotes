@@ -12,7 +12,7 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../distributed/">
+        <link rel="next" href="../wsis/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>基本概念 - Eagle</title>
+        <title>语义分割 - Eagle</title>
       
     
     
@@ -124,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#ocrnet" class="md-skip">
           跳转至
         </a>
       
@@ -158,7 +158,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              基本概念
+              语义分割
             
           </span>
         </div>
@@ -242,13 +242,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../foundation/" class="md-tabs__link">
           
   
     
@@ -324,11 +322,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../segmentation/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
     
@@ -458,8 +458,6 @@
       
   
   
-    
-  
   
   
     
@@ -478,22 +476,19 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../foundation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -504,13 +499,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             基础知识
@@ -523,28 +518,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    基本概念
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../foundation/concepts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -553,93 +530,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      信息论
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="信息论">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      熵
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      条件熵
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      交叉熵
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      互信息
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kl" class="md-nav__link">
-    <span class="md-ellipsis">
-      相对熵 (KL 散度)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#js" class="md-nav__link">
-    <span class="md-ellipsis">
-      JS 散度
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -652,7 +542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../distributed/" class="md-nav__link">
+      <a href="../../foundation/distributed/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -673,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../networks/" class="md-nav__link">
+      <a href="../../foundation/networks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1502,6 +1392,8 @@
       
   
   
+    
+  
   
   
     
@@ -1520,19 +1412,22 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../segmentation/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1543,13 +1438,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             视觉分割
@@ -1562,10 +1457,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../segmentation/semantic_seg/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    语义分割
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1574,6 +1487,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ocrnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      OCRNet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OCRNet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      研究动机
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      相关研究
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      核心思想
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      具体实现
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1586,7 +1568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../segmentation/wsis/" class="md-nav__link">
+      <a href="../wsis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1607,7 +1589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../segmentation/losses/" class="md-nav__link">
+      <a href="../losses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1845,7 +1827,7 @@
         
   
   <span class="md-ellipsis">
-    面试
+    🔑面试
   </span>
   
 
@@ -1922,7 +1904,7 @@
         
   
   <span class="md-ellipsis">
-    命令词识别
+    🔑命令词识别
   </span>
   
 
@@ -1972,7 +1954,7 @@
         
   
   <span class="md-ellipsis">
-    工业质检
+    🔑工业质检
   </span>
   
 
@@ -1993,7 +1975,7 @@
         
   
   <span class="md-ellipsis">
-    人脸人体识别
+    🔑人脸人体识别
   </span>
   
 
@@ -2014,7 +1996,7 @@
         
   
   <span class="md-ellipsis">
-    图像处理
+    🔑图像处理
   </span>
   
 
@@ -2056,19 +2038,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#ocrnet" class="md-nav__link">
     <span class="md-ellipsis">
-      信息论
+      OCRNet
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="信息论">
+    <nav class="md-nav" aria-label="OCRNet">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      研究动机
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      熵
+      相关研究
     </span>
   </a>
   
@@ -2077,7 +2068,7 @@
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      条件熵
+      核心思想
     </span>
   </a>
   
@@ -2086,34 +2077,7 @@
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      交叉熵
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      互信息
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kl" class="md-nav__link">
-    <span class="md-ellipsis">
-      相对熵 (KL 散度)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#js" class="md-nav__link">
-    <span class="md-ellipsis">
-      JS 散度
+      具体实现
     </span>
   </a>
   
@@ -2139,19 +2103,36 @@
                   
 
 
-  <h1>基本概念</h1>
+  <h1>语义分割</h1>
 
-<h2 id="_1">信息论<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
-<h3 id="_2">熵<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
-<p>用来度量信息的不确定程度。</p>
-<div class="arithmatex">\[
-\mathbf{H}(\mathbf{X}) = - \sum_{i=1}^N \log p(x_i)
-\]</div>
-<h3 id="_3">条件熵<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
-<h3 id="_4">交叉熵<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
-<h3 id="_5">互信息<a class="headerlink" href="#_5" title="Permanent link">#</a></h3>
-<h3 id="kl">相对熵 (KL 散度)<a class="headerlink" href="#kl" title="Permanent link">#</a></h3>
-<h3 id="js">JS 散度<a class="headerlink" href="#js" title="Permanent link">#</a></h3>
+<h2 id="ocrnet">OCRNet<a class="headerlink" href="#ocrnet" title="Permanent link">#</a></h2>
+<h3 id="_1">研究动机<a class="headerlink" href="#_1" title="Permanent link">#</a></h3>
+<p>基于 FCN 的语义分割方法面临3个挑战:</p>
+<ul>
+<li><strong>分辨率低</strong>: 随着网络加深，逐渐降低分辨率导致空间信息损失 (→ HRNet)；</li>
+<li><strong>上下文信息缺失</strong>: 像素级的特征感受野不够，且物体具有多尺度特点 (→OCRNet)；</li>
+<li><em>边界错误*</em>: 边界区域像素的特征表示的判别性弱 (→SegFix)。</li>
+</ul>
+<h3 id="_2">相关研究<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
+<p>为了改善 OCR (Object Contextrual Representation) 问题，相关的研究有</p>
+<ul>
+<li>ParseNet (ICLR2016) 使用 Global Pooling 计算一个全局特征作为上下文去增强每个像素的特征表达；</li>
+<li>PSPNet (CVPR2017) 使用 Pyramid Pooling 抽取多尺度特征；</li>
+<li>DeepLabv2/v3: 使用了空洞卷积 (Atrous Convolution) 抽取多尺度特征。</li>
+</ul>
+<h3 id="_3">核心思想<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
+<p>显式地将 <strong><mark class="critic">像素分类</mark></strong> 问题转化为 <strong><mark class="critic">区域分类问题</mark></strong>。</p>
+<blockquote>
+<p>我的理解就是用每个"像素"的特征表达与每个类别的特征表达计算相似度。这里的"像素"指的是特征图上的某个点，对应到原图其实就是区域。</p>
+</blockquote>
+<h3 id="_4">具体实现<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../images/ocrnet.png"><img alt="OCR_pipeline" src="../images/ocrnet.png"/></a></p>
+<p>OCRNet 的具体实现包含三个阶段：</p>
+<ul>
+<li>提取区域类别的特征： 根据 <strong>像素语义信息</strong> (Soft Object Regions) 和 <strong>像素特征</strong> (Pixel Representation) 得到每个 <strong>类别区域特征</strong> (Object Region Representations)；</li>
+<li>计算像素区域的相似度: 计算 <strong>像素特征</strong> 和第一步得到的 <strong>类别区域特征</strong> 像素与区域的相似度，即依赖关系 (Pixel-Region Relation);</li>
+<li>获得上下文表示: 由第二步计算得到相似度图，其乘以 <strong>类别区域特征</strong> 则可得到上下文表示。最后与像素特征进行拼接，再做通道调整得到最终的上下文表示。</li>
+</ul>
 
 
 
